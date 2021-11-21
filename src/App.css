@@ -1,0 +1,87 @@
+
+body{
+  color: black;
+}
+
+.App {
+  border: 3px solid black;
+  margin: 5px 1px;
+  position: relative;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+
+  
+}
+
+
+
+.chngeMoodDark {
+  background-color: rgb(41, 40, 40);
+  color: white;
+}
+
+.chngeMoodLight {
+  background-color: white;
+}
+
+.userName{
+  display: block;
+  margin: -25px 0px 20px -88%;
+  text-decoration: underline;
+}
+
+
+@media print {
+  .noPrint{
+    display:none;
+  }
+}
+
+.table {
+  border: 1px;
+  margin-left: auto; 
+  margin-right: auto;
+  position: relative;
+  top:20px;
+
+}
+
+h1{
+  text-align: center;
+  text-decoration: underline overline;
+  margin: 40px 0 40px 0;
+}
+h2{
+  text-align: center;
+  text-decoration: underline;
+  margin: 40px 0 20px 0;
+}
+hr{
+  height: 1px;
+  background-color: black;
+  width: 90%
+}
+
+span{
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
+
+@media (max-width: 600px) {
+  .chngeMoodDark {
+    background-color: rgb(41, 40, 40);
+    width: max-content;
+    color: white;
+  }
+  .PSnote{
+    text-decoration: none; 
+  }
+
+}
